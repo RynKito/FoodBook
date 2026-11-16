@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FoodBook</string>
+    <string name="app_title">🍳 FoodBook</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mật khẩu (tối thiểu 6 ký tự)</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="btn_register">Đăng ký tài khoản mới</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_favorite">Yêu thích</string>
+    <string name="nav_profile">Cá nhân</string>
+    <string name="nav_detail">Chi tiết món ăn</string>
+    <string name="search_hint">Tìm món ăn (vd: Phở, Bún chả&#8230;)</string>
+    <string name="empty_favorites">Chưa có món yêu thích nào.\nVào chi tiết món và bấm ♡ để lưu.</string>
+    <string name="add_favorite">♡ Thêm vào yêu thích</string>
+    <string name="remove_favorite">♥ Đã yêu thích</string>
+    <string name="ingredients_title">Nguyên liệu</string>
+    <string name="instructions_title">Cách làm</string>
+    <string name="btn_logout">Đăng xuất</string>
+    <string name="meal_img_desc">Ảnh món ăn</string>
+
+    <string name="filter_all">Tất cả món</string>
+    <string name="filter_meat">Món thịt</string>
+    <string name="filter_seafood">Hải sản</string>
+    <string name="filter_veg">Món chay</string>
+    <string name="filter_dessert">Tráng miệng</string>
+    <string name="dropdown_hint">Lọc loại món</string>
+</resources>
