@@ -14,6 +14,7 @@ import com.example.foodbook.R
 import com.example.foodbook.databinding.FragmentHomeBinding
 import com.example.foodbook.util.Resource
 import com.google.android.material.chip.Chip
+import com.google.android.material.snackbar.Snackbar
 
 class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
@@ -72,6 +73,20 @@ class HomeFragment : Fragment() {
                 }
                 is Resource.Error -> { adapter.submitList(emptyList()); showMessage(state.message) }
                 else -> Unit
+            }
+        }
+        binding.fabRandom.setOnClickListener { viewModel.pickRandom() }
+        viewModel.random.observe(viewLifecycleOwner) { id ->
+            if (id != null) {
+                viewModel.randomConsumed()
+                findNavController().navigate(R.id.detailFragment, bundleOf("mealId" to id))
+            }
+        }
+
+        viewModel.sync.observe(viewLifecycleOwner) { state ->
+            if (state is Resource.Error && !viewModel.syncErrorShown) {
+                viewModel.syncErrorShown = true
+                Snackbar.make(binding.root, state.message, Snackbar.LENGTH_LONG).show()
             }
         }
         if (viewModel.meals.value == null) viewModel.load()

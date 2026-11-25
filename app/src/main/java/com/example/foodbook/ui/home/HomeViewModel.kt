@@ -13,10 +13,15 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
 class HomeViewModel(app: Application) : AndroidViewModel(app) {
-    private val repo = MealRepository(AppDatabase.get(app))
+    private val repo = MealRepository(AppDatabase.get(app), app)
 
     val categories = listOf("Món Việt", "Món Âu", "Món Nhật", "Món Trung")
     val dietOptions = listOf("Tất cả món", "Món thịt", "Hải sản", "Món chay", "Tráng miệng")
+
+    // Trạng thái đồng bộ với server: Loading / Success(số món) / Error
+    private val _sync = MutableLiveData<Resource<Int>>()
+    val sync: LiveData<Resource<Int>> = _sync
+    var syncErrorShown = false
 
     private val _meals = MutableLiveData<Resource<List<MealItem>>>()
     val meals: LiveData<Resource<List<MealItem>>> = _meals
@@ -48,7 +53,33 @@ class HomeViewModel(app: Application) : AndroidViewModel(app) {
         else -> "all"
     }
 
+    // "Hôm nay ăn gì?": chọn ngẫu nhiên một món rồi mở màn hình chi tiết
+    private val _random = MutableLiveData<String?>()
+    val random: LiveData<String?> = _random
+
+    fun pickRandom() {
+        viewModelScope.launch { _random.value = repo.randomMealId() }
+    }
+
+    fun randomConsumed() { _random.value = null }
+
     private var job: Job? = null
+
+    init { syncFromServer() }
+
+    /** Kéo thực đơn mới nhất từ server (Retrofit), lưu vào Room rồi tải lại danh sách. */
+    fun syncFromServer() {
+        _sync.value = Resource.Loading
+        viewModelScope.launch {
+            try {
+                val count = repo.syncFromServer()
+                _sync.value = Resource.Success(count)
+                load()
+            } catch (e: Exception) {
+                _sync.value = Resource.Error("Không có mạng, đang dùng dữ liệu đã lưu trong máy")
+            }
+        }
+    }
 
     private fun run(block: suspend () -> List<MealItem>) {
         job?.cancel()

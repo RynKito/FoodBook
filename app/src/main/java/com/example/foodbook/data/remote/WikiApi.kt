@@ -6,8 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
 
-data class WikiImage(val source: String?)
-data class WikiSummary(val thumbnail: WikiImage?)
+data class WikiImage(val source: String?, val width: Int? = null, val height: Int? = null)
+data class WikiSummary(val thumbnail: WikiImage?, val originalimage: WikiImage? = null)
 
 /** Lấy ảnh đại diện của bài viết Wikipedia về món ăn (đúng món, miễn phí) */
 interface WikiApi {

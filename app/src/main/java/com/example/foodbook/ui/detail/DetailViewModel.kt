@@ -13,7 +13,7 @@ import com.example.foodbook.util.Resource
 import kotlinx.coroutines.launch
 
 class DetailViewModel(app: Application) : AndroidViewModel(app) {
-    private val repo = MealRepository(AppDatabase.get(app))
+    private val repo = MealRepository(AppDatabase.get(app), app)
     private val _detail = MutableLiveData<Resource<MealDetail>>()
     val detail: LiveData<Resource<MealDetail>> = _detail
 

@@ -9,7 +9,12 @@ import com.example.foodbook.data.local.AppDatabase
 import com.example.foodbook.data.local.UserEntity
 import com.example.foodbook.util.Resource
 import com.example.foodbook.util.SecurePrefs
+import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.AuthResult
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+import com.google.firebase.auth.FirebaseAuthInvalidUserException
+import com.google.firebase.auth.FirebaseAuthUserCollisionException
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
@@ -41,9 +46,40 @@ class AuthViewModel(app: Application) : AndroidViewModel(app) {
                 prefs.saveEmail(user.email.orEmpty())
                 _state.value = Resource.Success(Unit)
             } catch (e: Exception) {
-                _state.value = Resource.Error(e.localizedMessage ?: "Đăng nhập thất bại")
+                _state.value = Resource.Error(toVietnamese(e))
             }
         }
+    }
+
+    // Thông báo ngắn cho người dùng (vd: đã gửi email đặt lại mật khẩu)
+    private val _info = MutableLiveData<String?>()
+    val info: LiveData<String?> = _info
+    fun infoShown() { _info.value = null }
+
+    /** Quên mật khẩu: Firebase gửi email đặt lại mật khẩu cho tài khoản. */
+    fun resetPassword(email: String) {
+        if (email.isBlank()) {
+            _info.value = "Nhập email vào ô Email rồi bấm Quên mật khẩu."
+            return
+        }
+        viewModelScope.launch {
+            _info.value = try {
+                auth.sendPasswordResetEmail(email).await()
+                "Đã gửi email đặt lại mật khẩu tới $email. Hãy kiểm tra hộp thư (cả mục Spam)."
+            } catch (e: Exception) {
+                toVietnamese(e)
+            }
+        }
+    }
+
+    private fun toVietnamese(e: Exception): String = when (e) {
+        is FirebaseAuthUserCollisionException -> "Email này đã được đăng ký. Hãy bấm Đăng nhập."
+        is FirebaseAuthWeakPasswordException -> "Mật khẩu quá yếu (tối thiểu 6 ký tự)."
+        is FirebaseAuthInvalidUserException,
+        is FirebaseAuthInvalidCredentialsException ->
+            "Email hoặc mật khẩu không đúng. Nếu chưa có tài khoản, hãy bấm Đăng ký tài khoản mới."
+        is FirebaseNetworkException -> "Không có kết nối mạng. Vui lòng kiểm tra Wi-Fi/4G."
+        else -> "Có lỗi xảy ra, vui lòng thử lại."
     }
 
     fun savedEmail(): String = prefs.email()

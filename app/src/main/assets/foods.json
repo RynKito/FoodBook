@@ -1,0 +1,1769 @@
+{
+  "version": 1,
+  "dishes": [
+    {
+      "id": "v01",
+      "name": "Phở bò",
+      "category": "Món Việt",
+      "area": "Miền Bắc",
+      "diet": "thit",
+      "wiki": "Phở",
+      "image": "",
+      "time": "3 giờ 30 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Rửa xương thật kỹ và vớt bọt thường xuyên thì nước phở mới trong và ngọt.",
+      "ingredients": [
+        "500g bánh phở tươi",
+        "1 kg xương ống bò",
+        "400g thịt bò (nạm, tái)",
+        "1 củ hành tây, 1 củ gừng (nướng)",
+        "Hoa hồi, quế, thảo quả",
+        "2 muỗng canh nước mắm, 1 muỗng canh đường phèn",
+        "Hành lá, ngò, giá, chanh, ớt"
+      ],
+      "steps": [
+        "Chần xương bò qua nước sôi 5 phút, rửa sạch để nước dùng trong.",
+        "Nướng hành tây và gừng cho thơm, rang hoa hồi, quế, thảo quả.",
+        "Ninh xương với 3 lít nước cùng gia vị trên lửa nhỏ 3 đến 4 giờ, thường xuyên vớt bọt.",
+        "Nêm nước mắm, đường phèn, muối cho vừa ăn; thái thịt bò mỏng.",
+        "Chần bánh phở, xếp thịt và hành lá vào tô, chan nước dùng đang sôi; ăn kèm giá, chanh, ớt."
+      ]
+    },
+    {
+      "id": "v02",
+      "name": "Gà chiên mật ong",
+      "category": "Món Việt",
+      "area": "Việt Nam",
+      "diet": "thit",
+      "wiki": "Honey chicken",
+      "image": "",
+      "time": "40 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Chỉ cho sốt mật ong vào lúc cuối và đảo nhanh tay, để lâu mật ong sẽ cháy đắng.",
+      "ingredients": [
+        "500g cánh gà hoặc đùi gà",
+        "3 muỗng canh mật ong",
+        "2 muỗng canh nước tương",
+        "1 muỗng canh nước mắm",
+        "4 tép tỏi băm",
+        "1 muỗng cà phê tiêu",
+        "Bột chiên giòn hoặc bột bắp",
+        "Dầu ăn để chiên",
+        "Mè rang"
+      ],
+      "steps": [
+        "Rửa sạch gà, để ráo; ướp với tỏi băm, nước tương, nước mắm, tiêu và 1 muỗng canh mật ong trong 30 phút.",
+        "Lăn gà qua bột chiên giòn hoặc bột bắp cho phủ đều.",
+        "Chiên gà ngập dầu lửa vừa 10 đến 12 phút đến khi vàng giòn, chín kỹ; vớt ra giấy thấm dầu.",
+        "Làm sốt: đun 2 muỗng canh mật ong với 1 muỗng canh nước tương và chút tỏi băm đến khi sệt nhẹ.",
+        "Cho gà vào chảo, đảo nhanh với sốt cho áo đều, rắc mè rang rồi dùng nóng."
+      ]
+    },
+    {
+      "id": "v03",
+      "name": "Cơm chiên Dương Châu",
+      "category": "Món Việt",
+      "area": "Việt Nam",
+      "diet": "thit",
+      "wiki": "Yangzhou fried rice",
+      "image": "",
+      "time": "25 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Dùng cơm nguội qua đêm và lửa lớn thì hạt cơm sẽ tơi, không bị nhão.",
+      "ingredients": [
+        "3 chén cơm nguội",
+        "100g tôm bóc vỏ",
+        "100g lạp xưởng hoặc xá xíu thái hạt lựu",
+        "2 quả trứng",
+        "Cà rốt, đậu Hà Lan, bắp hạt",
+        "2 củ hành lá",
+        "1 muỗng canh nước tương",
+        "Dầu ăn, muối, tiêu"
+      ],
+      "steps": [
+        "Dùng cơm nguội, tơi rời từng hạt; thái nhỏ lạp xưởng, cà rốt.",
+        "Chiên trứng đánh tan trên chảo nóng đến khi vừa chín rồi múc ra.",
+        "Phi hành, xào tôm và lạp xưởng cho chín, thêm cà rốt, đậu Hà Lan, bắp hạt.",
+        "Cho cơm vào, đảo đều tay trên lửa lớn đến khi hạt cơm khô, săn.",
+        "Thêm trứng, nêm nước tương, muối, tiêu rồi rắc hành lá, tắt bếp."
+      ]
+    },
+    {
+      "id": "v04",
+      "name": "Bún bò Huế",
+      "category": "Món Việt",
+      "area": "Miền Trung",
+      "diet": "thit",
+      "wiki": "Bún bò Huế",
+      "image": "",
+      "time": "2 giờ 30 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Phi sả với sa tế riêng rồi mới cho vào nồi để nước dùng có màu đẹp và thơm.",
+      "ingredients": [
+        "500g bắp bò, 500g giò heo",
+        "500g xương heo",
+        "5 cây sả",
+        "2 muỗng canh mắm ruốc",
+        "2 muỗng canh sa tế, 1 muỗng canh ớt bột",
+        "500g bún to",
+        "Hành tây, hành lá, ngò",
+        "Giá, rau muống chẻ, bắp chuối, chanh"
+      ],
+      "steps": [
+        "Chần xương và giò heo, rửa sạch; đập dập sả.",
+        "Hầm xương, bắp bò, giò heo cùng sả khoảng 2 giờ; vớt thịt ngâm nước lạnh rồi thái lát.",
+        "Hòa mắm ruốc với nước, để lắng lấy phần trong cho vào nồi.",
+        "Phi sả với sa tế, ớt bột rồi cho vào nồi nước dùng, nêm cho vừa ăn.",
+        "Chần bún, xếp thịt vào tô, chan nước dùng; ăn kèm rau sống và chanh."
+      ]
+    },
+    {
+      "id": "v05",
+      "name": "Mì Quảng",
+      "category": "Món Việt",
+      "area": "Miền Trung",
+      "diet": "thit",
+      "wiki": "Mì Quảng",
+      "image": "",
+      "time": "45 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Nước nhân chỉ để xâm xấp mì, không chan nhiều như bún hay phở.",
+      "ingredients": [
+        "300g mì Quảng (hoặc bánh phở tươi)",
+        "200g tôm",
+        "200g thịt ba chỉ",
+        "Nghệ, hành tím, tỏi",
+        "Đậu phộng rang, bánh tráng mè",
+        "Rau sống, chuối bắp, giá",
+        "Nước mắm, đường, tiêu"
+      ],
+      "steps": [
+        "Ướp tôm và thịt ba chỉ với nghệ, hành tỏi, nước mắm, tiêu.",
+        "Phi thơm hành tỏi, xào thịt và tôm chín, đổ nước vừa ngập, đun nhỏ lửa cho hơi sệt.",
+        "Chần mì qua nước sôi, cho vào tô, thêm ít rau sống ở dưới.",
+        "Múc nhân và ít nước xâm xấp, rắc đậu phộng, bẻ bánh tráng mè lên trên."
+      ]
+    },
+    {
+      "id": "v06",
+      "name": "Thịt kho trứng",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "thit",
+      "wiki": "Thịt kho",
+      "image": "",
+      "time": "1 giờ 15 phút",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Kho lửa nhỏ và không đậy kín nắp để thịt mềm, nước kho sánh và không bị hôi.",
+      "ingredients": [
+        "600g thịt ba chỉ",
+        "6 quả trứng (luộc, bóc vỏ)",
+        "500ml nước dừa tươi",
+        "3 muỗng canh nước mắm",
+        "2 muỗng canh đường",
+        "Hành tím, tỏi, tiêu, ớt"
+      ],
+      "steps": [
+        "Thái thịt ba chỉ miếng vuông, ướp hành tỏi băm, nước mắm, tiêu 30 phút.",
+        "Thắng đường làm nước màu đến vàng cánh gián.",
+        "Cho thịt vào đảo săn, đổ nước dừa ngập thịt, đun sôi rồi hạ nhỏ lửa.",
+        "Kho 40 phút, thêm trứng luộc, kho thêm 20 phút đến khi nước sệt, thịt mềm.",
+        "Ăn nóng với cơm trắng và dưa chua."
+      ]
+    },
+    {
+      "id": "v07",
+      "name": "Canh chua cá",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "hai_san",
+      "wiki": "Canh chua",
+      "image": "",
+      "time": "30 phút",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Cho rau thơm và giá vào sau cùng rồi tắt bếp ngay để rau giữ màu xanh và giòn.",
+      "ingredients": [
+        "500g cá lóc (hoặc cá basa)",
+        "2 quả cà chua",
+        "100g đậu bắp",
+        "100g giá, 1/4 quả thơm",
+        "30g me",
+        "1 cây bạc hà",
+        "Rau om, ngò gai, tỏi, ớt",
+        "Nước mắm, đường"
+      ],
+      "steps": [
+        "Cá làm sạch, cắt khúc, ướp chút muối và tiêu. Hòa me với nước nóng rồi lọc lấy nước chua.",
+        "Phi thơm tỏi, cho cà chua và thơm vào xào sơ.",
+        "Đổ nước me vào, đun sôi rồi cho cá vào nấu chín; nêm nước mắm, đường cho chua ngọt hài hòa.",
+        "Cho đậu bắp, bạc hà, giá vào nấu thêm 2 phút; tắt bếp, thêm rau om, ngò gai và ớt."
+      ]
+    },
+    {
+      "id": "v08",
+      "name": "Bánh xèo",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "hai_san",
+      "wiki": "Bánh xèo",
+      "image": "",
+      "time": "50 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Chảo phải thật nóng khi đổ bột thì bánh mới giòn và có tiếng xèo đặc trưng.",
+      "ingredients": [
+        "250g bột gạo, 1 muỗng cà phê nghệ",
+        "400ml nước cốt dừa pha loãng",
+        "Hành lá",
+        "300g tôm, 300g thịt ba chỉ",
+        "200g giá đỗ",
+        "Rau sống, cải xanh",
+        "Nước mắm chua ngọt"
+      ],
+      "steps": [
+        "Trộn bột gạo, nghệ, nước cốt dừa, hành lá, chút muối; để nghỉ 30 phút.",
+        "Thịt ba chỉ thái mỏng, tôm bóc vỏ; xào sơ cho thơm.",
+        "Làm nóng chảo, thoa ít dầu, đổ một vá bột, xoay đều cho mỏng; cho tôm, thịt, giá vào một nửa bánh.",
+        "Đậy nắp 2 phút rồi mở nắp chiên giòn, gấp đôi bánh.",
+        "Cuộn bánh với rau sống trong lá cải xanh, chấm nước mắm chua ngọt."
+      ]
+    },
+    {
+      "id": "v09",
+      "name": "Gỏi cuốn tôm thịt",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "hai_san",
+      "wiki": "Gỏi cuốn",
+      "image": "",
+      "time": "35 phút",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Nhúng bánh tráng thật nhanh, để vài giây cho mềm rồi cuốn; nhúng lâu bánh sẽ rách.",
+      "ingredients": [
+        "12 tờ bánh tráng",
+        "300g tôm",
+        "200g thịt ba chỉ",
+        "200g bún tươi",
+        "Xà lách, giá, rau thơm, hẹ",
+        "3 muỗng canh tương hoisin",
+        "2 muỗng canh đậu phộng rang giã nhỏ"
+      ],
+      "steps": [
+        "Luộc thịt ba chỉ chín rồi thái lát mỏng; luộc tôm, bóc vỏ và bổ đôi.",
+        "Rửa sạch rau, để ráo; nhúng nhanh bánh tráng vào nước rồi trải lên thớt.",
+        "Xếp xà lách, bún, rau thơm, thịt, tôm lên bánh tráng, cuốn chặt tay và gài vài cọng hẹ.",
+        "Pha nước chấm từ tương hoisin, đậu phộng, tỏi ớt băm và chút nước ấm."
+      ]
+    },
+    {
+      "id": "v10",
+      "name": "Bò lúc lắc",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "thit",
+      "wiki": "Shaking beef",
+      "image": "",
+      "time": "30 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Áp chảo từng đợt ít một trên lửa lớn, cho nhiều thịt cùng lúc sẽ ra nước và bị dai.",
+      "ingredients": [
+        "400g thăn bò thái hạt lựu",
+        "2 củ hành tây",
+        "1 quả ớt chuông",
+        "4 tép tỏi băm",
+        "2 muỗng canh dầu hào",
+        "1 muỗng canh nước tương, 1 muỗng canh đường",
+        "Bơ, tiêu",
+        "Xà lách, cà chua, dưa leo"
+      ],
+      "steps": [
+        "Ướp thịt với tỏi, dầu hào, nước tương, đường, tiêu 30 phút.",
+        "Làm nóng chảo thật nóng với bơ, áp chảo thịt từng đợt, lắc chảo 1 đến 2 phút cho thịt săn, vàng.",
+        "Xào nhanh hành tây và ớt chuông với chút dầu.",
+        "Trộn tất cả, nêm nếm lại rồi tắt bếp.",
+        "Bày thịt lên xà lách, cà chua, dưa leo; ăn kèm cơm hoặc bánh mì."
+      ]
+    },
+    {
+      "id": "a01",
+      "name": "Mì Ý Carbonara",
+      "category": "Món Âu",
+      "area": "Ý",
+      "diet": "thit",
+      "wiki": "Carbonara",
+      "image": "",
+      "time": "25 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Tắt bếp rồi mới trộn trứng, nếu để lửa trứng sẽ vón cục thay vì tạo thành sốt mịn.",
+      "ingredients": [
+        "200g mì Ý spaghetti",
+        "100g thịt xông khói (bacon) thái nhỏ",
+        "2 lòng đỏ trứng và 1 quả trứng",
+        "50g phô mai Parmesan bào",
+        "2 tép tỏi",
+        "Tiêu đen xay, muối"
+      ],
+      "steps": [
+        "Luộc mì trong nước sôi có muối, giữ lại nửa chén nước luộc.",
+        "Chiên bacon với tỏi đến khi giòn rồi tắt bếp.",
+        "Trộn trứng, phô mai Parmesan và nhiều tiêu trong một tô.",
+        "Cho mì vào chảo bacon (đã tắt bếp), đổ hỗn hợp trứng vào đảo nhanh, thêm chút nước luộc mì cho sốt mịn.",
+        "Rắc thêm phô mai và tiêu, dùng ngay."
+      ]
+    },
+    {
+      "id": "a02",
+      "name": "Mì Ý sốt bò bằm",
+      "category": "Món Âu",
+      "area": "Ý",
+      "diet": "thit",
+      "wiki": "Bolognese sauce",
+      "image": "",
+      "time": "55 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Ninh sốt càng lâu càng ngon, có thể làm trước một ngày và hâm lại.",
+      "ingredients": [
+        "200g mì Ý",
+        "300g thịt bò xay",
+        "1 củ hành tây, 1 củ cà rốt, 2 tép tỏi",
+        "400g cà chua xay hoặc sốt cà chua",
+        "2 muỗng canh tương cà",
+        "Húng tây, muối, tiêu",
+        "Phô mai Parmesan"
+      ],
+      "steps": [
+        "Phi thơm hành, tỏi, cà rốt băm nhỏ rồi cho thịt bò xay vào xào săn.",
+        "Thêm cà chua, tương cà, húng tây, muối, tiêu; ninh lửa nhỏ 30 đến 40 phút.",
+        "Luộc mì chín tới, vớt ráo.",
+        "Cho mì ra đĩa, rưới sốt bò và rắc phô mai Parmesan."
+      ]
+    },
+    {
+      "id": "a03",
+      "name": "Lasagne",
+      "category": "Món Âu",
+      "area": "Ý",
+      "diet": "thit",
+      "wiki": "Lasagne",
+      "image": "",
+      "time": "1 giờ 30 phút",
+      "servings": "6 người",
+      "level": "Khó",
+      "tip": "Để lasagne nghỉ 10 phút sau khi nướng thì các lớp mới định hình, cắt không bị nát.",
+      "ingredients": [
+        "9 lá mì lasagne",
+        "400g sốt bò bằm",
+        "500ml sốt béchamel (bơ, bột mì, sữa)",
+        "200g phô mai Mozzarella bào",
+        "Phô mai Parmesan"
+      ],
+      "steps": [
+        "Làm sốt bò bằm và sốt béchamel: nấu bơ với bột mì, đổ sữa từ từ khuấy đến sệt.",
+        "Phết một lớp sốt bò vào khay nướng, xếp lá lasagne, phết béchamel, rắc phô mai.",
+        "Lặp lại 3 lớp, lớp trên cùng phủ béchamel và nhiều Mozzarella.",
+        "Đậy giấy bạc, nướng 180 độ C trong 30 phút, bỏ giấy bạc nướng thêm 15 phút đến vàng.",
+        "Để nguội 10 phút rồi cắt miếng."
+      ]
+    },
+    {
+      "id": "a04",
+      "name": "Pizza Margherita",
+      "category": "Món Âu",
+      "area": "Ý",
+      "diet": "chay",
+      "wiki": "Pizza Margherita",
+      "image": "",
+      "time": "1 giờ 30 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Nướng ở nhiệt độ cao nhất của lò và cán bột mỏng để đế bánh giòn.",
+      "ingredients": [
+        "300g bột mì, 1 muỗng cà phê men, muối",
+        "200ml nước ấm",
+        "150g sốt cà chua",
+        "150g phô mai Mozzarella",
+        "Lá húng quế tươi",
+        "Dầu ô liu"
+      ],
+      "steps": [
+        "Trộn bột mì, men, muối, nước ấm, nhào 10 phút, ủ 1 giờ cho nở gấp đôi.",
+        "Cán bột thành hình tròn mỏng, phết sốt cà chua.",
+        "Xé Mozzarella rải đều.",
+        "Nướng 230 độ C trong 10 đến 12 phút đến khi viền bánh vàng, phô mai chảy.",
+        "Rắc lá húng quế, rưới dầu ô liu."
+      ]
+    },
+    {
+      "id": "a05",
+      "name": "Bít tết bò sốt tiêu",
+      "category": "Món Âu",
+      "area": "Pháp",
+      "diet": "thit",
+      "wiki": "Steak",
+      "image": "",
+      "time": "25 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Thấm khô miếng thịt trước khi áp chảo để mặt thịt có lớp vàng nâu thơm.",
+      "ingredients": [
+        "2 miếng thăn bò (200g mỗi miếng)",
+        "2 muỗng canh bơ",
+        "2 tép tỏi, nhánh húng tây",
+        "Muối, tiêu đen",
+        "Khoai tây nghiền hoặc rau củ ăn kèm",
+        "100ml kem tươi, 1 muỗng canh tiêu xanh"
+      ],
+      "steps": [
+        "Để thịt ra ngoài tủ lạnh 30 phút, thấm khô, ướp muối và tiêu.",
+        "Làm nóng chảo gang rất nóng, áp chảo mỗi mặt 2 đến 3 phút (chín vừa).",
+        "Thêm bơ, tỏi, húng tây, tưới bơ lên thịt 1 phút rồi để thịt nghỉ 5 phút.",
+        "Làm sốt: cho kem tươi và tiêu xanh vào chảo vừa áp chảo, đun sệt; rưới lên thịt."
+      ]
+    },
+    {
+      "id": "a06",
+      "name": "Gà nướng bơ tỏi",
+      "category": "Món Âu",
+      "area": "Anh",
+      "diet": "thit",
+      "wiki": "Roast chicken",
+      "image": "",
+      "time": "1 giờ 30 phút",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Để gà ở nhiệt độ phòng 30 phút trước khi nướng để thịt chín đều.",
+      "ingredients": [
+        "1 con gà (1,2 đến 1,5 kg)",
+        "60g bơ mềm",
+        "5 tép tỏi băm",
+        "Húng tây hoặc hương thảo",
+        "1 quả chanh",
+        "Khoai tây, cà rốt",
+        "Muối, tiêu"
+      ],
+      "steps": [
+        "Trộn bơ với tỏi, thảo mộc, muối, tiêu.",
+        "Thoa bơ lên da và vào trong bụng gà, nhét nửa quả chanh vào bụng.",
+        "Xếp khoai tây, cà rốt vào khay, đặt gà lên trên.",
+        "Nướng 200 độ C khoảng 60 đến 75 phút, thỉnh thoảng múc nước tiết rưới lên.",
+        "Chọc đùi gà thấy nước trong là chín; để nghỉ 10 phút rồi cắt."
+      ]
+    },
+    {
+      "id": "a07",
+      "name": "Ratatouille rau củ nướng",
+      "category": "Món Âu",
+      "area": "Pháp",
+      "diet": "chay",
+      "wiki": "Ratatouille",
+      "image": "",
+      "time": "1 giờ",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Xào từng loại rau riêng trước khi hầm chung để rau giữ được hình dạng và vị.",
+      "ingredients": [
+        "1 quả cà tím",
+        "2 quả bí ngòi",
+        "2 quả ớt chuông",
+        "3 quả cà chua",
+        "1 củ hành tây, 3 tép tỏi",
+        "Dầu ô liu, húng tây, muối, tiêu"
+      ],
+      "steps": [
+        "Cắt tất cả rau củ thành miếng vuông cỡ 2cm.",
+        "Phi hành tỏi với dầu ô liu, cho cà tím xào mềm.",
+        "Lần lượt thêm ớt chuông, bí ngòi, cà chua cùng húng tây.",
+        "Đậy nắp, hầm lửa nhỏ 30 đến 40 phút đến khi rau mềm, sánh.",
+        "Nêm nếm, ăn nóng hoặc nguội với bánh mì."
+      ]
+    },
+    {
+      "id": "a08",
+      "name": "Súp hành tây kiểu Pháp",
+      "category": "Món Âu",
+      "area": "Pháp",
+      "diet": "thit",
+      "wiki": "French onion soup",
+      "image": "",
+      "time": "1 giờ 15 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Kiên nhẫn xào hành lửa nhỏ đến vàng nâu thì súp mới có vị ngọt đậm đà.",
+      "ingredients": [
+        "4 củ hành tây lớn thái mỏng",
+        "40g bơ",
+        "1 lít nước dùng bò hoặc gà",
+        "Bánh mì baguette cắt lát",
+        "100g phô mai Mozzarella bào",
+        "Muối, tiêu, húng tây"
+      ],
+      "steps": [
+        "Xào hành tây với bơ lửa nhỏ 30 đến 40 phút, khuấy đều đến khi vàng nâu.",
+        "Đổ nước dùng và húng tây, đun nhỏ lửa 20 phút; nêm muối, tiêu.",
+        "Múc súp ra tô chịu nhiệt, đặt lát bánh mì và phủ phô mai.",
+        "Nướng trong lò đến khi phô mai chảy vàng."
+      ]
+    },
+    {
+      "id": "a09",
+      "name": "Bánh Tiramisu",
+      "category": "Món Âu",
+      "area": "Ý",
+      "diet": "trang_mieng",
+      "wiki": "Tiramisu",
+      "image": "",
+      "time": "40 phút (chưa tính thời gian ướp lạnh)",
+      "servings": "6 người",
+      "level": "Trung bình",
+      "tip": "Nhúng bánh vào cà phê thật nhanh, ngâm lâu bánh sẽ bị nhão.",
+      "ingredients": [
+        "250g phô mai Mascarpone",
+        "3 lòng đỏ trứng, 60g đường",
+        "150ml kem tươi",
+        "200ml cà phê espresso nguội",
+        "Bánh Savoiardi (ladyfinger)",
+        "Bột cacao"
+      ],
+      "steps": [
+        "Đánh lòng đỏ với đường đến khi bông mịn, trộn đều với Mascarpone.",
+        "Đánh kem tươi bông cứng rồi nhẹ tay trộn vào hỗn hợp Mascarpone.",
+        "Nhúng nhanh bánh Savoiardi vào cà phê, xếp một lớp vào khay, phủ một lớp kem; lặp lại thêm một lớp nữa.",
+        "Để tủ lạnh ít nhất 6 giờ, rây bột cacao lên trước khi dùng."
+      ]
+    },
+    {
+      "id": "a10",
+      "name": "Panna cotta dâu tây",
+      "category": "Món Âu",
+      "area": "Ý",
+      "diet": "trang_mieng",
+      "wiki": "Panna cotta",
+      "image": "",
+      "time": "20 phút (chưa tính thời gian ướp lạnh)",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Không đun sôi hỗn hợp kem, và cho đủ gelatin để bánh đông mà vẫn mềm mịn.",
+      "ingredients": [
+        "300ml kem tươi",
+        "150ml sữa tươi",
+        "50g đường",
+        "1 muỗng cà phê vani",
+        "6g gelatin",
+        "Sốt dâu tây hoặc mứt dâu"
+      ],
+      "steps": [
+        "Ngâm gelatin trong nước lạnh 5 phút cho mềm.",
+        "Đun kem tươi, sữa, đường lửa nhỏ đến khi đường tan (không để sôi), thêm vani.",
+        "Tắt bếp, cho gelatin đã vắt ráo vào khuấy tan.",
+        "Rót vào ly, để nguội rồi cho vào tủ lạnh 4 đến 6 giờ.",
+        "Rưới sốt dâu lên trên khi ăn."
+      ]
+    },
+    {
+      "id": "n01",
+      "name": "Sushi cuộn",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "hai_san",
+      "wiki": "Sushi",
+      "image": "",
+      "time": "50 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Trộn giấm vào cơm khi còn ấm và dùng dao nhúng nước khi cắt để cuộn không bị dính.",
+      "ingredients": [
+        "2 chén cơm gạo Nhật",
+        "3 muỗng canh giấm gạo, 1 muỗng canh đường, nửa muỗng cà phê muối",
+        "4 tờ rong biển nori",
+        "Cá hồi tươi hoặc tôm luộc",
+        "Dưa leo, bơ",
+        "Wasabi, nước tương"
+      ],
+      "steps": [
+        "Trộn giấm, đường, muối vào cơm còn ấm rồi để nguội.",
+        "Trải rong biển lên mành tre, dàn cơm mỏng, chừa mép trên 1cm.",
+        "Xếp cá hồi, dưa leo, bơ thành hàng ở giữa.",
+        "Cuộn chặt tay bằng mành tre, dùng dao ướt cắt thành 8 khoanh.",
+        "Dùng với wasabi và nước tương."
+      ]
+    },
+    {
+      "id": "n02",
+      "name": "Mì Ramen thịt heo",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Ramen",
+      "image": "",
+      "time": "1 giờ 30 phút",
+      "servings": "2 người",
+      "level": "Khó",
+      "tip": "Ngâm trứng trong nước om thịt qua đêm để lòng đào đậm vị.",
+      "ingredients": [
+        "2 vắt mì ramen",
+        "600ml nước dùng gà hoặc xương",
+        "2 muỗng canh nước tương, 1 muỗng canh miso",
+        "200g thịt ba chỉ cuộn",
+        "2 quả trứng luộc lòng đào",
+        "Hành lá, nấm, rong biển",
+        "Dầu mè"
+      ],
+      "steps": [
+        "Cuộn thịt ba chỉ, buộc chặt, om với nước tương, đường, nước 40 đến 50 phút cho mềm rồi thái lát.",
+        "Luộc trứng 6,5 phút, ngâm vào nước om thịt.",
+        "Đun nước dùng với nước tương, miso và dầu mè.",
+        "Luộc mì theo hướng dẫn, vớt ráo cho vào tô.",
+        "Chan nước dùng, xếp thịt, nửa quả trứng, hành lá, rong biển."
+      ]
+    },
+    {
+      "id": "n03",
+      "name": "Tempura tôm",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "hai_san",
+      "wiki": "Tempura",
+      "image": "",
+      "time": "35 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Dùng nước đá lạnh và không khuấy bột kỹ thì vỏ tempura mới giòn xốp.",
+      "ingredients": [
+        "8 con tôm lớn",
+        "100g bột mì, 1 quả trứng, 150ml nước đá lạnh",
+        "Bí đỏ, cà rốt, khoai lang thái lát",
+        "Dầu ăn để chiên",
+        "100ml nước dashi, 2 muỗng canh nước tương, 1 muỗng canh mirin",
+        "Củ cải trắng bào"
+      ],
+      "steps": [
+        "Bóc vỏ tôm chừa đuôi, rạch vài đường ở bụng để tôm thẳng.",
+        "Trộn bột mì, trứng, nước đá lạnh sơ sơ (để vón cục nhỏ, không khuấy mịn).",
+        "Nhúng tôm và rau củ vào bột, chiên dầu 170 độ C đến khi vàng nhạt, giòn rồi vớt ra giấy thấm dầu.",
+        "Đun sôi dashi, nước tương, mirin làm nước chấm; ăn kèm củ cải bào."
+      ]
+    },
+    {
+      "id": "n04",
+      "name": "Mì Udon nước dùng",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Udon",
+      "image": "",
+      "time": "25 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Không luộc mì quá mềm vì mì sẽ tiếp tục chín khi chan nước dùng nóng.",
+      "ingredients": [
+        "2 vắt mì udon",
+        "600ml nước dashi",
+        "2 muỗng canh nước tương nhạt, 1 muỗng canh mirin",
+        "100g thịt gà hoặc thịt bò thái mỏng",
+        "Hành lá, nấm, rau cải"
+      ],
+      "steps": [
+        "Đun sôi nước dashi với nước tương và mirin.",
+        "Cho thịt vào nấu chín, thêm nấm và rau cải.",
+        "Luộc mì udon theo hướng dẫn, vớt ráo cho vào tô.",
+        "Chan nước dùng và rau thịt lên mì, rắc hành lá."
+      ]
+    },
+    {
+      "id": "n05",
+      "name": "Okonomiyaki",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Okonomiyaki",
+      "image": "",
+      "time": "30 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Không trộn bột quá kỹ và đừng ép bánh khi chiên để bánh được xốp.",
+      "ingredients": [
+        "150g bột mì",
+        "150ml nước dashi hoặc nước",
+        "2 quả trứng",
+        "300g bắp cải thái nhỏ",
+        "100g thịt ba chỉ thái mỏng",
+        "Sốt okonomi, mayonnaise, bột rong biển, hành lá"
+      ],
+      "steps": [
+        "Trộn bột mì, nước dashi, trứng thành hỗn hợp sệt.",
+        "Cho bắp cải, hành lá vào trộn đều.",
+        "Đổ hỗn hợp ra chảo nóng thành bánh dày, xếp thịt ba chỉ lên trên.",
+        "Chiên mỗi mặt 4 đến 5 phút đến vàng, chín thịt.",
+        "Phết sốt, rưới mayonnaise, rắc rong biển."
+      ]
+    },
+    {
+      "id": "n06",
+      "name": "Tonkatsu heo chiên xù",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Tonkatsu",
+      "image": "",
+      "time": "35 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Rạch gân thịt trước khi chiên để miếng thịt không bị co lại.",
+      "ingredients": [
+        "2 miếng thịt heo thăn dày 2cm",
+        "Bột mì, 1 quả trứng đánh tan, bột chiên xù panko",
+        "Dầu chiên",
+        "Bắp cải thái chỉ",
+        "Sốt tonkatsu",
+        "Muối, tiêu"
+      ],
+      "steps": [
+        "Rạch gân thịt, ướp muối tiêu.",
+        "Lăn thịt qua bột mì, trứng, rồi bột panko và ấn chặt.",
+        "Chiên ngập dầu 170 độ C khoảng 5 đến 6 phút, vàng giòn hai mặt.",
+        "Để ráo dầu, thái miếng.",
+        "Dọn với bắp cải thái chỉ, cơm và sốt tonkatsu."
+      ]
+    },
+    {
+      "id": "n07",
+      "name": "Cơm Katsudon",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Katsudon",
+      "image": "",
+      "time": "35 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Rưới trứng làm hai lần để một phần chín vừa, một phần còn mềm mịn.",
+      "ingredients": [
+        "2 miếng tonkatsu (cách làm ở món Tonkatsu)",
+        "2 chén cơm trắng",
+        "1 củ hành tây thái mỏng",
+        "3 quả trứng",
+        "150ml nước dashi",
+        "2 muỗng canh nước tương, 1 muỗng canh mirin, 1 muỗng canh đường"
+      ],
+      "steps": [
+        "Chiên tonkatsu giòn rồi thái lát.",
+        "Đun dashi, nước tương, mirin, đường, cho hành tây vào nấu mềm.",
+        "Xếp thịt chiên lên trên, rưới trứng đánh tan, đậy nắp nấu lửa nhỏ đến khi trứng vừa chín tới.",
+        "Múc cơm ra tô, đặt phần thịt trứng lên trên cùng nước sốt."
+      ]
+    },
+    {
+      "id": "n08",
+      "name": "Cơm bò Gyudon",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Gyūdon",
+      "image": "",
+      "time": "20 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Thái thịt thật mỏng và vớt bọt kỹ để nước sốt trong, vị ngọt thanh.",
+      "ingredients": [
+        "300g thịt bò ba rọi thái mỏng",
+        "1 củ hành tây",
+        "200ml nước dashi",
+        "3 muỗng canh nước tương, 2 muỗng canh mirin, 1 muỗng canh đường",
+        "2 chén cơm",
+        "Trứng lòng đào (tùy chọn)"
+      ],
+      "steps": [
+        "Đun dashi với nước tương, mirin, đường đến khi sôi.",
+        "Cho hành tây vào nấu 5 phút.",
+        "Thêm thịt bò, nấu 3 đến 4 phút đến chín, vớt bọt.",
+        "Múc cơm ra tô, xếp thịt hành lên, rưới nước sốt; ăn kèm trứng lòng đào."
+      ]
+    },
+    {
+      "id": "n09",
+      "name": "Cơm nắm Onigiri nhân mơ muối",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "chay",
+      "wiki": "Onigiri",
+      "image": "",
+      "time": "15 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Nắm cơm khi còn ấm bằng tay thấm nước muối để cơm không dính và đậm vị.",
+      "ingredients": [
+        "2 chén cơm gạo Nhật còn ấm",
+        "4 quả mơ muối (umeboshi)",
+        "Muối",
+        "Rong biển nori cắt dải"
+      ],
+      "steps": [
+        "Thấm tay vào nước muối để cơm không dính.",
+        "Lấy một nắm cơm, ấn lõm giữa, cho nhân mơ muối vào rồi vo kín.",
+        "Nắm cơm thành hình tam giác, ép nhẹ tay.",
+        "Quấn dải rong biển quanh một cạnh và dùng ngay."
+      ]
+    },
+    {
+      "id": "n10",
+      "name": "Bánh Mochi nhân đậu đỏ",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "trang_mieng",
+      "wiki": "Mochi",
+      "image": "",
+      "time": "30 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Rắc nhiều bột bắp lên mặt thớt và tay để tránh dính khi nặn.",
+      "ingredients": [
+        "100g bột gạo nếp",
+        "30g đường",
+        "150ml nước",
+        "Bột bắp hoặc bột nếp để áo",
+        "Nhân đậu đỏ ngọt"
+      ],
+      "steps": [
+        "Trộn bột nếp, đường và nước đến khi mịn.",
+        "Đậy màng bọc, cho vào lò vi sóng 2 phút, trộn rồi thêm 1 phút nữa (hoặc hấp 20 phút).",
+        "Đổ bột ra mặt phẳng đã rắc bột bắp, để nguội bớt.",
+        "Chia nhỏ, ép dẹt, cho nhân đậu đỏ vào giữa và vo tròn kín.",
+        "Ăn trong ngày để mochi mềm dẻo."
+      ]
+    },
+    {
+      "id": "t01",
+      "name": "Đậu hũ Mapo Tứ Xuyên",
+      "category": "Món Trung",
+      "area": "Tứ Xuyên",
+      "diet": "thit",
+      "wiki": "Mapo doufu",
+      "image": "",
+      "time": "25 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Chần đậu hũ trong nước muối trước để đậu săn chắc, không vỡ khi nấu.",
+      "ingredients": [
+        "400g đậu hũ non",
+        "150g thịt heo xay",
+        "2 muỗng canh tương đậu cay",
+        "1 muỗng cà phê bột ớt, tiêu Tứ Xuyên",
+        "3 tép tỏi, gừng băm",
+        "Nước dùng, nước tương, bột bắp",
+        "Hành lá"
+      ],
+      "steps": [
+        "Cắt đậu hũ khối vuông, chần nước muối sôi 2 phút.",
+        "Phi tỏi gừng, xào thịt xay chín, thêm tương đậu cay xào thơm.",
+        "Đổ nước dùng, thêm đậu hũ, đun nhỏ lửa 5 phút.",
+        "Hòa bột bắp với nước, đổ vào cho sệt.",
+        "Rắc tiêu Tứ Xuyên và hành lá."
+      ]
+    },
+    {
+      "id": "t02",
+      "name": "Gà xào Kung Pao",
+      "category": "Món Trung",
+      "area": "Tứ Xuyên",
+      "diet": "thit",
+      "wiki": "Kung Pao chicken",
+      "image": "",
+      "time": "25 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Xào ớt khô với lửa nhỏ để thơm mà không bị cháy đắng.",
+      "ingredients": [
+        "400g ức gà thái hạt lựu",
+        "50g đậu phộng rang",
+        "6 quả ớt khô",
+        "3 tép tỏi, gừng",
+        "2 muỗng canh nước tương, 1 muỗng canh giấm, 1 muỗng canh đường, 1 muỗng cà phê bột bắp",
+        "Hành lá"
+      ],
+      "steps": [
+        "Ướp gà với nước tương, bột bắp 15 phút.",
+        "Pha sốt từ nước tương, giấm, đường, bột bắp và chút nước.",
+        "Xào ớt khô với dầu cho thơm, thêm tỏi, gừng.",
+        "Cho gà vào xào chín, đổ sốt vào xào sệt.",
+        "Cho đậu phộng và hành lá, đảo nhanh rồi tắt bếp."
+      ]
+    },
+    {
+      "id": "t03",
+      "name": "Thịt heo sốt chua ngọt",
+      "category": "Món Trung",
+      "area": "Quảng Đông",
+      "diet": "thit",
+      "wiki": "Sweet and sour pork",
+      "image": "",
+      "time": "40 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Chiên giòn hai lần để thịt giòn lâu, chỉ trộn sốt ngay trước khi ăn.",
+      "ingredients": [
+        "400g thịt heo thăn",
+        "1 quả dứa, 1 quả ớt chuông",
+        "Bột bắp, 1 quả trứng, dầu chiên",
+        "3 muỗng canh tương cà, 2 muỗng canh giấm, 2 muỗng canh đường, 1 muỗng canh nước tương"
+      ],
+      "steps": [
+        "Thái thịt miếng vừa ăn, ướp muối, tẩm trứng và bột bắp.",
+        "Chiên giòn hai lần để thịt vàng và giòn lâu.",
+        "Đun sốt cà chua, giấm, đường, nước tương đến khi sệt.",
+        "Xào dứa và ớt chuông sơ, cho thịt vào đảo nhanh với sốt; dùng nóng với cơm."
+      ]
+    },
+    {
+      "id": "t04",
+      "name": "Cơm chiên trứng",
+      "category": "Món Trung",
+      "area": "Dương Châu",
+      "diet": "chay",
+      "wiki": "Egg fried rice",
+      "image": "",
+      "time": "15 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Dùng cơm nguội để hạt cơm tơi, lửa thật lớn giúp cơm có mùi thơm đặc trưng.",
+      "ingredients": [
+        "2 chén cơm nguội",
+        "3 quả trứng",
+        "2 củ hành lá",
+        "Cà rốt, đậu Hà Lan",
+        "1 muỗng canh nước tương",
+        "Dầu, muối, tiêu"
+      ],
+      "steps": [
+        "Dùng cơm nguội để hạt rời.",
+        "Chiên trứng khuấy tơi trên chảo nóng rồi múc ra.",
+        "Xào cà rốt, đậu Hà Lan, cho cơm vào đảo đều tay.",
+        "Thêm trứng, nước tương, muối, tiêu rồi rắc hành lá."
+      ]
+    },
+    {
+      "id": "t05",
+      "name": "Mì xào Chow mein",
+      "category": "Món Trung",
+      "area": "Quảng Đông",
+      "diet": "thit",
+      "wiki": "Chow mein",
+      "image": "",
+      "time": "25 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Để mì ráo nước hoàn toàn trước khi xào để mì giòn nhẹ, không nhão.",
+      "ingredients": [
+        "200g mì trứng",
+        "150g thịt gà hoặc thịt heo thái mỏng",
+        "Cải thìa, cà rốt, giá đỗ",
+        "2 tép tỏi",
+        "2 muỗng canh nước tương, 1 muỗng canh dầu hào",
+        "Dầu mè"
+      ],
+      "steps": [
+        "Luộc mì gần chín, vớt ra trộn ít dầu.",
+        "Xào thịt với tỏi đến khi chín, múc ra.",
+        "Xào rau củ trên lửa lớn, thêm mì và thịt.",
+        "Nêm nước tương, dầu hào, dầu mè và đảo đều đến khi mì ráo, hơi cháy cạnh."
+      ]
+    },
+    {
+      "id": "t06",
+      "name": "Sủi cảo",
+      "category": "Món Trung",
+      "area": "Bắc Kinh",
+      "diet": "thit",
+      "wiki": "Jiaozi",
+      "image": "",
+      "time": "1 giờ",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Dùng ít nước khi nhào và để bột nghỉ 30 phút thì vỏ dai, dễ cán mỏng.",
+      "ingredients": [
+        "300g bột mì, 150ml nước ấm (hoặc vỏ bán sẵn)",
+        "250g thịt heo xay",
+        "100g tôm băm",
+        "Hẹ hoặc cải thảo băm",
+        "Gừng, nước tương, dầu mè",
+        "Nước chấm: nước tương, giấm, ớt"
+      ],
+      "steps": [
+        "Nhào bột với nước thành khối mịn, ủ 30 phút rồi cán mỏng cắt hình tròn.",
+        "Trộn thịt, tôm, hẹ, gừng, nước tương, dầu mè làm nhân.",
+        "Cho nhân vào giữa vỏ, gấp mép và ép chặt.",
+        "Luộc trong nước sôi đến khi nổi lên, hoặc áp chảo rồi hấp nước; dùng với nước chấm."
+      ]
+    },
+    {
+      "id": "t07",
+      "name": "Hoành thánh",
+      "category": "Món Trung",
+      "area": "Quảng Đông",
+      "diet": "thit",
+      "wiki": "Wonton",
+      "image": "",
+      "time": "45 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Gói nhân vừa phải, không nhồi quá đầy để vỏ không rách khi luộc.",
+      "ingredients": [
+        "200g thịt heo xay",
+        "100g tôm băm",
+        "Vỏ hoành thánh",
+        "Hành lá, tỏi, tiêu",
+        "500ml nước dùng xương",
+        "Cải thìa",
+        "Nước tương, dầu mè"
+      ],
+      "steps": [
+        "Trộn thịt, tôm với hành, tiêu, nước tương.",
+        "Đặt nhân lên vỏ, gấp lại thành hình nhúm.",
+        "Đun nước dùng với chút nước tương, nêm vừa ăn.",
+        "Luộc hoành thánh đến khi nổi, thêm cải thìa; múc ra tô và rưới dầu mè."
+      ]
+    },
+    {
+      "id": "t08",
+      "name": "Súp chua cay",
+      "category": "Món Trung",
+      "area": "Tứ Xuyên",
+      "diet": "thit",
+      "wiki": "Hot and sour soup",
+      "image": "",
+      "time": "30 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Rót trứng thật chậm theo đũa khuấy để trứng thành sợi mảnh đẹp.",
+      "ingredients": [
+        "100g thịt heo thái sợi",
+        "100g đậu hũ thái sợi",
+        "Nấm đông cô, mộc nhĩ",
+        "1 quả trứng đánh tan",
+        "700ml nước dùng",
+        "2 muỗng canh giấm, 1 muỗng cà phê tiêu",
+        "Nước tương, bột bắp, hành lá"
+      ],
+      "steps": [
+        "Đun sôi nước dùng cùng nấm, mộc nhĩ.",
+        "Cho thịt và đậu hũ vào nấu 5 phút.",
+        "Nêm nước tương, giấm, tiêu cho vị chua cay.",
+        "Hòa bột bắp với nước, đổ vào cho sệt.",
+        "Rót trứng thành sợi mảnh, rắc hành lá."
+      ]
+    },
+    {
+      "id": "t09",
+      "name": "Thịt xá xíu",
+      "category": "Món Trung",
+      "area": "Quảng Đông",
+      "diet": "thit",
+      "wiki": "Char siu",
+      "image": "",
+      "time": "45 phút (chưa tính thời gian ướp)",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Ướp qua đêm trong tủ lạnh để thịt thấm đều và có màu đỏ đẹp.",
+      "ingredients": [
+        "500g thịt heo thăn hoặc ba chỉ",
+        "2 muỗng canh mật ong",
+        "2 muỗng canh nước tương",
+        "1 muỗng canh dầu hào",
+        "1 muỗng canh ngũ vị hương",
+        "Tỏi băm, đường"
+      ],
+      "steps": [
+        "Trộn gia vị làm nước ướp, ướp thịt ít nhất 4 giờ hoặc để qua đêm.",
+        "Xếp thịt vào khay có giá nướng.",
+        "Nướng 200 độ C khoảng 25 đến 30 phút, quét thêm nước ướp và mật ong, lật thịt giữa chừng.",
+        "Để nghỉ 10 phút rồi thái lát."
+      ]
+    },
+    {
+      "id": "t10",
+      "name": "Chè trôi nước kiểu Trung",
+      "category": "Món Trung",
+      "area": "Giang Nam",
+      "diet": "trang_mieng",
+      "wiki": "Tangyuan",
+      "image": "",
+      "time": "40 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Vo viên nhỏ đều nhau và thả nhẹ vào nước sôi để viên không bị nứt.",
+      "ingredients": [
+        "150g bột nếp",
+        "Nhân mè đen hoặc đậu phộng giã",
+        "1 lít nước, 100g đường, vài lát gừng"
+      ],
+      "steps": [
+        "Nhào bột nếp với nước ấm thành khối mềm mịn.",
+        "Chia bột nhỏ, ấn lõm, cho nhân vào rồi vo tròn.",
+        "Nấu nước đường với gừng.",
+        "Thả viên bột vào nước sôi, chờ nổi lên thêm 2 phút.",
+        "Vớt ra bát, chan nước đường gừng."
+      ]
+    },
+    {
+      "id": "v11",
+      "name": "Bánh mì thịt nướng",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "thit",
+      "wiki": "Bánh mì",
+      "image": "",
+      "time": "1 giờ 15 phút (chưa tính thời gian ướp)",
+      "servings": "4 ổ bánh mì",
+      "level": "Dễ",
+      "tip": "Thái thịt mỏng khoảng 3mm để chín nhanh và thấm vị, ướp qua đêm trong tủ lạnh thì thịt thơm đậm như ngoài tiệm.",
+      "ingredients": [
+        "4 ổ bánh mì nhỏ",
+        "400g thịt heo nạc vai hoặc ba chỉ thái lát mỏng",
+        "2 cây sả băm nhuyễn",
+        "4 tép tỏi, 2 củ hành tím băm",
+        "2 muỗng canh nước mắm",
+        "1 muỗng canh dầu hào",
+        "2 muỗng canh đường",
+        "1 muỗng canh mật ong",
+        "1 muỗng cà phê tiêu",
+        "1 củ cà rốt và 1 củ cải trắng nhỏ (làm đồ chua)",
+        "2 muỗng canh giấm, 1 muỗng canh đường, 1/2 muỗng cà phê muối (nước ngâm đồ chua)",
+        "1 quả dưa leo, ngò rí, ớt",
+        "Bơ hoặc sốt mayonnaise"
+      ],
+      "steps": [
+        "Làm đồ chua: gọt vỏ cà rốt và củ cải, thái sợi nhỏ, bóp với 1/2 muỗng cà phê muối rồi rửa lại cho ráo. Hòa giấm và đường với 100ml nước ấm cho tan, ngâm rau củ ít nhất 30 phút.",
+        "Ướp thịt: trộn sả, tỏi, hành tím băm với nước mắm, dầu hào, đường, mật ong và tiêu. Cho thịt vào bóp đều, bọc kín và ướp trong tủ lạnh ít nhất 1 giờ (để qua đêm càng thấm).",
+        "Nướng thịt: làm nóng lò 200 độ C hoặc nồi chiên không dầu 180 độ C. Xếp thịt thành một lớp trên khay lót giấy bạc, nướng 12 đến 15 phút, lật mặt giữa chừng và quét thêm nước ướp đến khi thịt xém cạnh.",
+        "Chuẩn bị rau: dưa leo thái dải dài, ngò rí cắt khúc, ớt thái lát.",
+        "Làm nóng bánh mì trong lò hoặc chảo khoảng 2 phút cho vỏ giòn, rồi bổ dọc ổ bánh (không cắt đứt).",
+        "Phết một lớp bơ hoặc mayonnaise vào hai mặt ruột bánh.",
+        "Xếp dưa leo, thịt nướng, đồ chua, ngò và ớt vào bánh. Dùng ngay khi còn nóng."
+      ]
+    },
+    {
+      "id": "v12",
+      "name": "Chả giò chiên giòn",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "thit",
+      "wiki": "Chả giò",
+      "image": "",
+      "time": "1 giờ 15 phút",
+      "servings": "4 người (khoảng 20 cuốn)",
+      "level": "Trung bình",
+      "tip": "Vắt thật ráo nước củ sắn và rau củ, đồng thời không chiên lửa quá lớn để vỏ chả giò giòn rụm và không bị bong.",
+      "ingredients": [
+        "20 tờ bánh tráng cuốn chả giò",
+        "300g thịt heo xay",
+        "200g tôm sú băm nhỏ",
+        "1 củ cà rốt bào sợi",
+        "1/2 củ sắn (củ đậu) bào sợi, vắt ráo nước",
+        "50g miến, 20g mộc nhĩ",
+        "1 củ hành tây băm",
+        "2 tép tỏi băm",
+        "1 quả trứng gà",
+        "1 muỗng canh nước mắm, 1/2 muỗng cà phê tiêu, 1/2 muỗng cà phê đường, 1/2 muỗng cà phê hạt nêm",
+        "500ml dầu ăn để chiên",
+        "Rau sống, bún, nước mắm chua ngọt để ăn kèm"
+      ],
+      "steps": [
+        "Ngâm miến và mộc nhĩ trong nước ấm 15 phút cho mềm, vớt ra để ráo rồi cắt nhỏ khoảng 2cm.",
+        "Trộn nhân: cho thịt, tôm, cà rốt, củ sắn, miến, mộc nhĩ, hành tây, tỏi, trứng và các gia vị vào tô lớn, nhào đều tay khoảng 3 phút cho nhân kết dính.",
+        "Chiên thử một viên nhỏ để nêm lại cho vừa ăn.",
+        "Cuốn chả giò: trải bánh tráng, đặt khoảng 1 muỗng canh nhân ở gần mép dưới, gấp mép dưới lên, gấp hai bên vào rồi cuốn chặt tay đến hết. Dùng chút nước hoặc trứng để dán mép.",
+        "Làm nóng dầu ở lửa vừa (khoảng 170 độ C). Thả từng cuốn vào, không xếp quá nhiều cùng lúc.",
+        "Chiên 8 đến 10 phút, thỉnh thoảng trở đều đến khi vàng giòn đều; vớt ra giấy thấm dầu.",
+        "Cắt đôi, dọn với bún, rau sống và nước mắm chua ngọt."
+      ]
+    },
+    {
+      "id": "v13",
+      "name": "Hủ tiếu Nam Vang",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "thit",
+      "wiki": "Hủ tiếu",
+      "image": "",
+      "time": "1 giờ 30 phút",
+      "servings": "4 người",
+      "level": "Trung bình",
+      "tip": "Nước dùng ngọt thanh nhờ xương và củ cải, không nên nêm quá nhiều bột ngọt; hầm lửa nhỏ và vớt bọt thường xuyên để nước trong.",
+      "ingredients": [
+        "500g hủ tiếu (hoặc bánh phở) tươi",
+        "500g xương heo",
+        "200g thịt nạc heo",
+        "200g tôm",
+        "100g gan heo (tùy chọn)",
+        "1 củ cải trắng nhỏ, 1 củ cà rốt",
+        "1 củ hành tây",
+        "3 củ hành tím",
+        "1 muỗng canh nước mắm, 1 muỗng canh đường phèn, 1 muỗng cà phê muối",
+        "Hành lá, hẹ, giá, rau cần",
+        "Hành phi, tỏi phi, tiêu",
+        "Chanh, ớt, tương đen"
+      ],
+      "steps": [
+        "Chần xương heo trong nước sôi 5 phút, rửa sạch rồi cho vào nồi cùng 2,5 lít nước, củ cải, cà rốt và hành tây nướng sơ.",
+        "Đun sôi rồi hạ nhỏ lửa, hầm 1 giờ 15 phút, thường xuyên vớt bọt để nước trong.",
+        "Nêm đường phèn, muối, nước mắm cho vừa ăn. Vớt củ cải và cà rốt ra để dùng sau.",
+        "Luộc thịt nạc trong nước dùng khoảng 12 phút đến chín rồi vớt ra thái lát. Chần tôm và gan đến khi vừa chín.",
+        "Chần hủ tiếu trong nước sôi 10 đến 15 giây cho mềm, cho vào tô cùng giá và rau cần.",
+        "Xếp thịt, tôm, gan lên trên, rắc hành lá, hẹ, hành phi, tỏi phi và tiêu.",
+        "Chan nước dùng thật nóng; dùng kèm chanh, ớt và tương đen."
+      ]
+    },
+    {
+      "id": "v14",
+      "name": "Bánh cuốn nhân thịt",
+      "category": "Món Việt",
+      "area": "Miền Bắc",
+      "diet": "thit",
+      "wiki": "Bánh cuốn",
+      "image": "",
+      "time": "1 giờ 30 phút",
+      "servings": "4 người",
+      "level": "Khó",
+      "tip": "Pha bột loãng vừa phải và khuấy đều trước mỗi lần múc thì bánh mới mỏng, mịn; quét dầu ra mâm để bánh không dính.",
+      "ingredients": [
+        "200g bột gạo",
+        "30g bột năng (bột sắn)",
+        "600ml nước, 1/2 muỗng cà phê muối, 1 muỗng canh dầu ăn",
+        "250g thịt heo xay",
+        "30g mộc nhĩ",
+        "2 củ hành khô băm",
+        "1 muỗng canh nước mắm, 1/2 muỗng cà phê tiêu",
+        "Hành phi, chả lụa, giá",
+        "Nước mắm chua ngọt"
+      ],
+      "steps": [
+        "Pha bột: trộn bột gạo, bột năng, muối với nước và dầu ăn, khuấy cho tan và để nghỉ 30 phút.",
+        "Làm nhân: ngâm mộc nhĩ cho nở rồi thái nhỏ. Phi thơm hành khô, xào thịt xay đến khi chín, thêm mộc nhĩ, nước mắm, tiêu và xào thêm 3 phút rồi để nguội.",
+        "Chuẩn bị chõ hấp: đun sôi nồi nước, căng một miếng vải mỏng lên miệng nồi (hoặc dùng chảo chống dính có nắp đậy).",
+        "Tráng bánh: khuấy đều bột, múc khoảng 3 muỗng canh rưới lên vải, dàn mỏng thành hình tròn, đậy nắp hấp 1 đến 2 phút cho bánh trong và chín.",
+        "Dùng que gỡ bánh ra mâm đã quét dầu, cho một muỗng nhân lên trên rồi cuốn lại.",
+        "Lặp lại cho đến hết bột, xếp bánh ra đĩa, thêm chả lụa, giá và hành phi.",
+        "Chan nước mắm chua ngọt khi ăn."
+      ]
+    },
+    {
+      "id": "v15",
+      "name": "Bún thịt nướng",
+      "category": "Món Việt",
+      "area": "Miền Nam",
+      "diet": "thit",
+      "wiki": "Bún thịt nướng",
+      "image": "",
+      "time": "1 giờ (chưa tính thời gian ướp)",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Quét một lớp mật ong ở lần lật cuối để thịt có màu cánh gián bóng đẹp; không nướng quá lâu để thịt không bị khô.",
+      "ingredients": [
+        "400g thịt heo nạc vai",
+        "2 cây sả băm",
+        "3 tép tỏi, 2 củ hành tím băm",
+        "2 muỗng canh nước mắm",
+        "1 muỗng canh dầu hào",
+        "2 muỗng canh đường",
+        "1 muỗng canh mật ong",
+        "300g bún tươi",
+        "Xà lách, giá, rau thơm, dưa leo",
+        "Đậu phộng rang giã, hành phi",
+        "Nước mắm chua ngọt: 3 muỗng canh nước mắm, 3 muỗng canh đường, 2 muỗng canh nước cốt chanh, 150ml nước ấm, tỏi ớt băm"
+      ],
+      "steps": [
+        "Thái thịt thành lát mỏng khoảng 3mm. Trộn sả, tỏi, hành tím với nước mắm, dầu hào, đường rồi ướp thịt ít nhất 1 giờ.",
+        "Nướng thịt ở lò 200 độ C hoặc nồi chiên không dầu 180 độ C trong 12 đến 15 phút, lật mặt giữa chừng; lần lật cuối quét mật ong.",
+        "Pha nước mắm: hòa nước mắm, đường, nước cốt chanh với nước ấm, thêm tỏi ớt băm và nếm lại cho chua ngọt vừa ăn.",
+        "Chuẩn bị rau: xà lách và rau thơm rửa sạch để ráo; dưa leo thái sợi; giá trụng sơ.",
+        "Bày vào tô: xà lách, giá, dưa leo, rau thơm, bún, rồi xếp thịt nướng lên trên.",
+        "Rắc đậu phộng, hành phi và chan nước mắm khi ăn, trộn đều."
+      ]
+    },
+    {
+      "id": "a11",
+      "name": "Hamburger bò tự làm",
+      "category": "Món Âu",
+      "area": "Mỹ",
+      "diet": "thit",
+      "wiki": "Hamburger",
+      "image": "",
+      "time": "40 phút",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Không nhào thịt quá kỹ và chỉ nêm muối ngay trước khi nấu thì miếng thịt sẽ mềm và mọng nước.",
+      "ingredients": [
+        "4 ổ bánh hamburger",
+        "500g thịt bò xay (nên có khoảng 20 phần trăm mỡ)",
+        "1 muỗng cà phê muối, 1/2 muỗng cà phê tiêu đen",
+        "1 muỗng cà phê tỏi bột (tùy chọn)",
+        "4 lát phô mai cheddar",
+        "Xà lách, cà chua, hành tây thái vòng, dưa chuột muối",
+        "Sốt: 2 muỗng canh mayonnaise, 1 muỗng canh tương cà, 1 muỗng cà phê mù tạt",
+        "Bơ để nướng bánh"
+      ],
+      "steps": [
+        "Chia thịt bò làm 4 phần, nặn thành miếng tròn dày khoảng 2cm, rộng hơn ổ bánh một chút vì thịt sẽ co lại. Ấn lõm nhẹ ở giữa để miếng thịt không phồng. Rắc muối, tiêu, tỏi bột lên cả hai mặt.",
+        "Trộn đều mayonnaise, tương cà và mù tạt làm sốt.",
+        "Phết bơ lên mặt cắt của bánh, nướng trên chảo nóng 1 đến 2 phút đến vàng giòn.",
+        "Làm nóng chảo gang hoặc chảo chống dính ở lửa lớn. Áp chảo miếng thịt mỗi mặt 3 đến 4 phút, không ấn dẹt khi chiên.",
+        "Khi lật mặt, đặt lát phô mai lên thịt, đậy nắp 30 giây cho phô mai chảy.",
+        "Ráp bánh: phết sốt vào đáy bánh, xếp xà lách, cà chua, hành tây, thịt phô mai, dưa chuột muối rồi đậy nắp bánh.",
+        "Ăn ngay khi còn nóng, kèm khoai tây chiên."
+      ]
+    },
+    {
+      "id": "a12",
+      "name": "Cá chiên giòn và khoai tây chiên",
+      "category": "Món Âu",
+      "area": "Anh",
+      "diet": "hai_san",
+      "wiki": "Fish and chips",
+      "image": "",
+      "time": "50 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Dùng bia hoặc nước có ga thật lạnh để lớp bột chiên giòn xốp, và chiên khoai hai lần để ruột mềm, vỏ giòn.",
+      "ingredients": [
+        "2 miếng phi lê cá (cá basa hoặc cá hồi trắng, khoảng 200g mỗi miếng)",
+        "3 củ khoai tây lớn",
+        "100g bột mì, 1/2 muỗng cà phê bột nở, 1/2 muỗng cà phê muối",
+        "150ml bia lạnh hoặc nước có ga lạnh",
+        "Dầu ăn để chiên ngập",
+        "Chanh, muối, giấm",
+        "Sốt tartar: 3 muỗng canh mayonnaise, 1 muỗng canh dưa chuột muối băm, 1 muỗng cà phê nước cốt chanh"
+      ],
+      "steps": [
+        "Gọt vỏ khoai, cắt dày 1,5cm, ngâm nước lạnh 20 phút rồi lau thật khô.",
+        "Chiên khoai lần 1 ở 150 độ C trong 6 đến 7 phút cho chín mềm (chưa vàng), vớt ra để nguội.",
+        "Pha bột: trộn bột mì, bột nở, muối, rót từ từ bia lạnh vào khuấy mịn đến khi sệt như sữa chua lỏng.",
+        "Thấm khô cá, ướp muối tiêu, lăn nhẹ qua một lớp bột mì khô rồi nhúng vào hỗn hợp bột.",
+        "Chiên cá ở 180 độ C trong 5 đến 6 phút đến vàng giòn, vớt ra giấy thấm dầu.",
+        "Chiên lại khoai ở 180 độ C trong 3 đến 4 phút đến vàng giòn, rắc muối.",
+        "Dọn cá và khoai với lát chanh và sốt tartar."
+      ]
+    },
+    {
+      "id": "a13",
+      "name": "Salad Caesar gà",
+      "category": "Món Âu",
+      "area": "Mỹ",
+      "diet": "thit",
+      "wiki": "Caesar salad",
+      "image": "",
+      "time": "35 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Ngâm xà lách trong nước đá và để ráo thật kỹ để lá giòn và sốt bám đều, không bị loãng.",
+      "ingredients": [
+        "1 ức gà (khoảng 250g)",
+        "1 cây xà lách romaine (hoặc xà lách lô lô)",
+        "2 lát bánh mì khô cắt hạt lựu (làm crouton)",
+        "30g phô mai Parmesan bào",
+        "Sốt Caesar: 3 muỗng canh mayonnaise, 1 muỗng canh nước cốt chanh, 1 muỗng cà phê mù tạt Dijon, 1 tép tỏi băm, 1 muỗng cà phê nước mắm, 1 muỗng canh phô mai Parmesan bào",
+        "Dầu ô liu, muối, tiêu"
+      ],
+      "steps": [
+        "Ướp ức gà với muối và tiêu trong 10 phút.",
+        "Làm crouton: trộn bánh mì với 1 muỗng canh dầu ô liu, nướng 180 độ C trong 8 phút hoặc chiên chảo đến vàng giòn.",
+        "Áp chảo gà với dầu ô liu 5 đến 6 phút mỗi mặt đến khi chín hẳn, để nghỉ 5 phút rồi thái lát.",
+        "Pha sốt: trộn tất cả nguyên liệu sốt, nêm nếm lại cho vừa ăn.",
+        "Xà lách rửa sạch, ngâm nước đá 5 phút cho giòn, để ráo rồi xé miếng vừa ăn.",
+        "Trộn xà lách với sốt, bày ra đĩa, xếp gà, crouton và phô mai lên trên."
+      ]
+    },
+    {
+      "id": "a14",
+      "name": "Bánh pancake",
+      "category": "Món Âu",
+      "area": "Mỹ",
+      "diet": "trang_mieng",
+      "wiki": "Pancake",
+      "image": "",
+      "time": "25 phút",
+      "servings": "3 người (khoảng 8 cái)",
+      "level": "Dễ",
+      "tip": "Đừng khuấy bột quá kỹ và dùng lửa vừa nhỏ; bánh sẽ nở xốp và vàng đều.",
+      "ingredients": [
+        "200g bột mì đa dụng",
+        "2 muỗng canh đường",
+        "2 muỗng cà phê bột nở",
+        "1/4 muỗng cà phê muối",
+        "250ml sữa tươi",
+        "1 quả trứng",
+        "30g bơ tan chảy",
+        "Bơ hoặc dầu để chiên",
+        "Mật ong hoặc siro, trái cây tươi"
+      ],
+      "steps": [
+        "Trộn bột mì, đường, bột nở và muối trong một tô lớn.",
+        "Ở tô khác, đánh nhẹ trứng với sữa và bơ tan chảy.",
+        "Đổ hỗn hợp ướt vào hỗn hợp khô, khuấy nhẹ tay đến khi vừa hòa quyện (còn vài cục bột nhỏ), để nghỉ 5 đến 10 phút.",
+        "Làm nóng chảo chống dính ở lửa vừa nhỏ, thoa một chút bơ.",
+        "Múc khoảng 1/4 chén bột đổ vào chảo. Khi bề mặt nổi bọt và mép bánh khô (2 đến 3 phút) thì lật.",
+        "Chiên mặt còn lại 1 đến 2 phút đến vàng.",
+        "Xếp chồng bánh ra đĩa, rưới mật ong và thêm trái cây."
+      ]
+    },
+    {
+      "id": "a15",
+      "name": "Bò sốt kem Stroganoff",
+      "category": "Món Âu",
+      "area": "Nga",
+      "diet": "thit",
+      "wiki": "Beef Stroganoff",
+      "image": "",
+      "time": "40 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Áp chảo bò nhanh trên lửa lớn rồi cho lại vào sau cùng để thịt mềm; cho kem chua khi đã hạ lửa để sốt không bị tách nước.",
+      "ingredients": [
+        "400g thăn bò thái sợi dày 1cm",
+        "250g nấm mỡ thái lát",
+        "1 củ hành tây thái mỏng",
+        "2 tép tỏi băm",
+        "2 muỗng canh bơ và 1 muỗng canh dầu ăn",
+        "1 muỗng canh bột mì",
+        "300ml nước dùng bò",
+        "150ml kem chua (sour cream) hoặc kem tươi",
+        "1 muỗng cà phê mù tạt Dijon",
+        "Muối, tiêu, mùi tây",
+        "Cơm, mì trứng hoặc khoai tây nghiền để ăn kèm"
+      ],
+      "steps": [
+        "Thấm khô thịt bò rồi ướp muối và tiêu.",
+        "Áp chảo bò từng đợt ở lửa lớn, mỗi mặt 1 đến 2 phút đến vàng nhẹ rồi múc ra đĩa.",
+        "Trong cùng chảo, cho bơ vào xào hành tây 3 phút đến mềm, thêm tỏi và nấm, xào 5 phút đến khi nước nấm cạn và nấm vàng.",
+        "Rắc bột mì vào đảo 1 phút, rồi đổ nước dùng bò từ từ vào khuấy cho tan.",
+        "Đun nhỏ lửa 5 đến 6 phút đến khi sốt sệt nhẹ.",
+        "Hạ lửa nhỏ nhất, cho bò lại vào cùng mù tạt và kem chua, khuấy đều 2 phút (không để sôi).",
+        "Nêm nếm lại, dọn với cơm hoặc khoai nghiền và rắc mùi tây."
+      ]
+    },
+    {
+      "id": "n11",
+      "name": "Cà ri Nhật",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Japanese curry",
+      "image": "",
+      "time": "50 phút",
+      "servings": "4 người",
+      "level": "Dễ",
+      "tip": "Tắt bếp trước khi cho viên roux để không bị vón cục; để cà ri nghỉ qua đêm thì hương vị càng đậm đà.",
+      "ingredients": [
+        "300g thịt gà hoặc bò thái miếng vừa",
+        "2 củ khoai tây",
+        "1 củ cà rốt",
+        "1 củ hành tây",
+        "1 muỗng canh dầu ăn",
+        "700ml nước",
+        "4 viên (khoảng 80g) roux cà ri Nhật",
+        "1 muỗng cà phê tương cà (tùy chọn)",
+        "1 muỗng cà phê mật ong hoặc 1/2 quả táo bào (tùy chọn)",
+        "Cơm Nhật nóng để ăn kèm"
+      ],
+      "steps": [
+        "Cắt khoai tây và cà rốt thành miếng khoảng 3cm; hành tây thái múi cau.",
+        "Xào hành tây với dầu 5 đến 6 phút đến mềm và vàng, thêm thịt xào đến khi săn lại.",
+        "Cho khoai tây và cà rốt vào xào thêm 2 phút.",
+        "Đổ nước vào, đun sôi, vớt bọt, hạ nhỏ lửa và nấu 15 đến 20 phút đến khi rau mềm.",
+        "Tắt bếp, cho viên roux vào khuấy đến khi tan hẳn.",
+        "Bật lại lửa nhỏ, nấu 5 đến 10 phút khuấy đều đến khi sệt; thêm tương cà và mật ong hoặc táo bào.",
+        "Múc cà ri chan lên cơm nóng."
+      ]
+    },
+    {
+      "id": "n12",
+      "name": "Cơm gà trứng Oyakodon",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Oyakodon",
+      "image": "",
+      "time": "25 phút",
+      "servings": "2 người",
+      "level": "Dễ",
+      "tip": "Đổ trứng làm hai lần và đừng nấu chín hẳn; trứng còn hơi chảy sẽ mềm mịn và sánh sốt.",
+      "ingredients": [
+        "250g đùi gà bỏ xương thái miếng vừa",
+        "1 củ hành tây thái mỏng",
+        "4 quả trứng",
+        "200ml nước dashi (hoặc nước và 1/2 muỗng cà phê hạt nêm dashi)",
+        "3 muỗng canh nước tương",
+        "2 muỗng canh mirin",
+        "1 muỗng canh đường",
+        "2 chén cơm nóng",
+        "Hành lá, rong biển cắt sợi"
+      ],
+      "steps": [
+        "Đánh nhẹ trứng, không đánh quá nhuyễn để còn vân trắng vàng.",
+        "Cho dashi, nước tương, mirin và đường vào chảo nhỏ, đun sôi.",
+        "Cho hành tây vào nấu 2 phút đến mềm.",
+        "Thêm gà vào nấu 5 đến 6 phút đến khi chín.",
+        "Rưới khoảng 2/3 trứng quanh chảo, đậy nắp 30 đến 45 giây.",
+        "Rưới nốt 1/3 trứng còn lại, đậy nắp thêm 20 giây khi trứng vừa chín tới.",
+        "Múc cơm ra tô, trượt phần gà trứng lên trên, rắc hành lá và rong biển."
+      ]
+    },
+    {
+      "id": "n13",
+      "name": "Trứng cuộn Tamagoyaki",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "chay",
+      "wiki": "Tamagoyaki",
+      "image": "",
+      "time": "15 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Giữ lửa nhỏ để trứng không cháy và cuộn khi mặt trên còn hơi ướt để các lớp dính vào nhau.",
+      "ingredients": [
+        "4 quả trứng",
+        "2 muỗng canh nước dashi (hoặc nước)",
+        "1 muỗng canh đường",
+        "2 muỗng cà phê nước tương",
+        "1 muỗng cà phê mirin",
+        "Chút muối",
+        "Dầu ăn và giấy thấm dầu",
+        "Củ cải trắng bào để ăn kèm"
+      ],
+      "steps": [
+        "Đánh trứng với dashi, đường, nước tương, mirin và muối; lọc qua rây cho mịn.",
+        "Làm nóng chảo nhỏ chống dính ở lửa vừa nhỏ, thoa dầu bằng giấy thấm dầu.",
+        "Đổ khoảng 1/3 trứng vào, nghiêng chảo cho trải đều; khi bề mặt vừa se nhưng còn hơi ướt thì cuộn từ ngoài vào bằng đũa hoặc xẻng.",
+        "Đẩy cuộn trứng sang mép chảo, thoa dầu, đổ thêm 1/3 trứng, nâng cuộn lên để trứng chảy xuống dưới rồi cuộn tiếp.",
+        "Làm tương tự với phần trứng cuối cùng.",
+        "Để nghỉ 2 phút cho định hình rồi cắt khoanh, dọn cùng củ cải trắng bào."
+      ]
+    },
+    {
+      "id": "n14",
+      "name": "Gà nướng xiên Yakitori",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "thit",
+      "wiki": "Yakitori",
+      "image": "",
+      "time": "40 phút (chưa tính thời gian ngâm xiên)",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Ngâm xiên tre trước để không bị cháy, và quét sốt vào những phút cuối để sốt không bị cháy đen.",
+      "ingredients": [
+        "500g đùi gà bỏ xương thái miếng vuông 3cm",
+        "2 củ hành lá (phần trắng) cắt khúc 3cm",
+        "Xiên tre ngâm nước 30 phút",
+        "Sốt tare: 4 muỗng canh nước tương, 3 muỗng canh mirin, 2 muỗng canh rượu sake hoặc nước, 2 muỗng canh đường",
+        "Muối, tiêu, ớt bột shichimi (tùy chọn)"
+      ],
+      "steps": [
+        "Làm sốt tare: đun các nguyên liệu sốt ở lửa nhỏ 8 đến 10 phút đến khi sệt như siro rồi để nguội.",
+        "Xiên gà xen kẽ với hành lá, khoảng 4 đến 5 miếng cho mỗi xiên.",
+        "Nướng ở lò 220 độ C hoặc trên vỉ nướng, mặt đầu 5 phút, lật mặt nướng thêm 4 phút.",
+        "Quét sốt tare lên gà, nướng thêm 2 phút mỗi mặt; lặp lại 2 lần để sốt bám đẹp.",
+        "Gà chín khi chọc vào không còn nước hồng.",
+        "Dùng nóng, rắc ớt shichimi nếu thích."
+      ]
+    },
+    {
+      "id": "n15",
+      "name": "Bánh Dorayaki",
+      "category": "Món Nhật",
+      "area": "Nhật Bản",
+      "diet": "trang_mieng",
+      "wiki": "Dorayaki",
+      "image": "",
+      "time": "40 phút",
+      "servings": "4 người (8 chiếc)",
+      "level": "Trung bình",
+      "tip": "Chảo chỉ cần lau dầu rất mỏng và để lửa nhỏ để mặt bánh vàng đều và mịn.",
+      "ingredients": [
+        "3 quả trứng",
+        "80g đường",
+        "1 muỗng canh mật ong",
+        "100g bột mì",
+        "1/2 muỗng cà phê baking soda",
+        "50ml nước hoặc sữa",
+        "Dầu ăn để lau chảo",
+        "200g nhân đậu đỏ ngọt"
+      ],
+      "steps": [
+        "Đánh trứng, đường và mật ong khoảng 3 đến 4 phút đến khi sánh và nhạt màu.",
+        "Hòa baking soda với 1 muỗng canh nước, đổ vào hỗn hợp trứng.",
+        "Rây bột mì vào, trộn nhẹ tay, thêm nước đến khi bột có độ lỏng như sốt.",
+        "Để bột nghỉ 15 phút.",
+        "Làm nóng chảo chống dính ở lửa nhỏ, lau một lớp dầu thật mỏng. Múc 2 muỗng canh bột đổ thành hình tròn khoảng 8cm.",
+        "Khi bề mặt nổi bọt (khoảng 2 phút) thì lật mặt, chiên thêm 1 phút. Để bánh nguội và phủ khăn ẩm cho khỏi khô.",
+        "Phết nhân đậu đỏ lên một miếng bánh rồi úp miếng khác lên."
+      ]
+    },
+    {
+      "id": "t11",
+      "name": "Bò xào kiểu Mông Cổ",
+      "category": "Món Trung",
+      "area": "Trung Quốc",
+      "diet": "thit",
+      "wiki": "Mongolian beef",
+      "image": "",
+      "time": "30 phút (chưa tính thời gian ướp)",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Thái thịt ngang thớ và xào thật nhanh trên lửa lớn để thịt mềm; không cho quá nhiều thịt cùng lúc vì sẽ ra nước.",
+      "ingredients": [
+        "400g thăn bò thái lát mỏng ngang thớ",
+        "2 muỗng canh bột bắp",
+        "2 củ hành lá cắt khúc",
+        "3 tép tỏi băm, 1 muỗng cà phê gừng băm",
+        "Dầu ăn",
+        "Sốt: 3 muỗng canh nước tương, 2 muỗng canh đường nâu, 1 muỗng canh dầu hào, 120ml nước",
+        "Cơm trắng để ăn kèm"
+      ],
+      "steps": [
+        "Ướp bò với 1 muỗng canh nước tương và bột bắp trong 15 phút.",
+        "Trộn các nguyên liệu sốt trong một bát nhỏ.",
+        "Làm nóng chảo lửa lớn với 2 muỗng canh dầu, áp chảo bò từng đợt, mỗi mặt 1 phút rồi múc ra.",
+        "Phi thơm tỏi và gừng 30 giây, đổ sốt vào đun sôi 2 phút đến khi sệt nhẹ.",
+        "Cho bò lại vào đảo 1 phút để thịt thấm sốt.",
+        "Thêm hành lá, đảo 30 giây rồi tắt bếp; dọn với cơm trắng."
+      ]
+    },
+    {
+      "id": "t12",
+      "name": "Gà sốt cam",
+      "category": "Món Trung",
+      "area": "Trung Quốc",
+      "diet": "thit",
+      "wiki": "Orange chicken",
+      "image": "",
+      "time": "45 phút",
+      "servings": "3 người",
+      "level": "Trung bình",
+      "tip": "Chiên gà hai lần để vỏ giòn lâu, và chỉ trộn sốt ngay trước khi ăn để gà không bị mềm.",
+      "ingredients": [
+        "400g ức hoặc đùi gà bỏ xương thái miếng vuông 3cm",
+        "1 quả trứng",
+        "4 muỗng canh bột bắp",
+        "Dầu để chiên",
+        "Sốt: 150ml nước cam tươi, 1 muỗng canh vỏ cam bào, 2 muỗng canh đường, 2 muỗng canh nước tương, 1 muỗng canh giấm gạo, 2 tép tỏi băm, 1 muỗng cà phê gừng băm",
+        "1 muỗng cà phê bột bắp hòa với 1 muỗng canh nước",
+        "Hành lá, mè rang"
+      ],
+      "steps": [
+        "Ướp gà với muối và tiêu, trộn với trứng rồi lăn qua bột bắp.",
+        "Chiên gà ở 170 độ C trong 5 đến 6 phút đến vàng, vớt ra; chiên lần 2 trong 1 đến 2 phút cho giòn.",
+        "Làm sốt: phi thơm tỏi, gừng, đổ nước cam, vỏ cam, đường, nước tương và giấm vào, đun sôi 3 phút.",
+        "Cho bột bắp hòa nước vào khuấy đến khi sốt sệt bóng.",
+        "Cho gà vào đảo nhanh 30 giây cho sốt bám đều.",
+        "Rắc hành lá và mè rang, dùng với cơm trắng."
+      ]
+    },
+    {
+      "id": "t13",
+      "name": "Súp trứng",
+      "category": "Món Trung",
+      "area": "Trung Quốc",
+      "diet": "chay",
+      "wiki": "Egg drop soup",
+      "image": "",
+      "time": "15 phút",
+      "servings": "3 người",
+      "level": "Dễ",
+      "tip": "Rót trứng thật chậm thành dòng mảnh và khuấy theo một chiều để có sợi trứng mềm đẹp như hoa.",
+      "ingredients": [
+        "700ml nước dùng rau củ (hoặc nước dùng gà nếu không ăn chay)",
+        "2 quả trứng đánh tan",
+        "1 muỗng canh bột bắp hòa với 2 muỗng canh nước",
+        "1 muỗng cà phê nước tương",
+        "1/2 muỗng cà phê dầu mè",
+        "1/4 muỗng cà phê tiêu trắng",
+        "Muối",
+        "Hành lá thái nhỏ",
+        "Bắp hạt hoặc nấm (tùy chọn)"
+      ],
+      "steps": [
+        "Đun sôi nước dùng.",
+        "Nêm nước tương, muối và tiêu.",
+        "Khuấy bột bắp hòa nước rồi đổ từ từ vào nồi, khuấy đến khi súp sệt nhẹ.",
+        "Hạ lửa nhỏ để nước sôi lăn tăn.",
+        "Vừa khuấy nhẹ theo một chiều vừa rót trứng thành dòng nhỏ để tạo sợi.",
+        "Tắt bếp, nhỏ dầu mè, rắc hành lá và dùng nóng."
+      ]
+    },
+    {
+      "id": "t14",
+      "name": "Bánh hành chiên",
+      "category": "Món Trung",
+      "area": "Trung Quốc",
+      "diet": "chay",
+      "wiki": "Scallion pancake",
+      "image": "",
+      "time": "1 giờ (gồm thời gian ủ bột)",
+      "servings": "3 người (4 cái)",
+      "level": "Trung bình",
+      "tip": "Dùng nước nóng nhào bột giúp bánh mềm dai; cuộn thành nhiều lớp và đập nhẹ khi còn nóng để bánh xốp nhiều lớp.",
+      "ingredients": [
+        "250g bột mì",
+        "170ml nước nóng khoảng 80 độ C",
+        "1/2 muỗng cà phê muối",
+        "4 củ hành lá thái nhỏ",
+        "3 muỗng canh dầu ăn để phết và dầu chiên",
+        "1/2 muỗng cà phê muối rắc",
+        "Nước chấm: nước tương, giấm, ớt"
+      ],
+      "steps": [
+        "Trộn bột với muối, rót nước nóng vào khuấy, nhào 5 phút thành khối mịn rồi ủ 30 phút.",
+        "Chia bột làm 4 phần.",
+        "Cán mỏng mỗi phần thành hình chữ nhật, phết dầu, rắc muối và hành lá.",
+        "Cuộn chặt như cuộn thảm, rồi cuộn tròn như ốc sên, ép dẹt và cán lại thành bánh tròn dày khoảng 0,5cm.",
+        "Chiên chảo lửa vừa 2 đến 3 phút mỗi mặt đến vàng giòn.",
+        "Dùng hai tay đập nhẹ bánh còn nóng để các lớp bung ra.",
+        "Cắt miếng, dùng với nước chấm."
+      ]
+    },
+    {
+      "id": "t15",
+      "name": "Mì Dan Dan Tứ Xuyên",
+      "category": "Món Trung",
+      "area": "Tứ Xuyên",
+      "diet": "thit",
+      "wiki": "Dandan noodles",
+      "image": "",
+      "time": "30 phút",
+      "servings": "2 người",
+      "level": "Trung bình",
+      "tip": "Trộn thật đều để sốt thấm vào từng sợi mì; dầu ớt và tiêu Tứ Xuyên chỉnh theo độ cay mình thích.",
+      "ingredients": [
+        "200g mì trứng sợi tròn",
+        "150g thịt heo xay",
+        "2 muỗng canh dầu ớt",
+        "1 muỗng canh mè xay (tahini) hoặc bơ đậu phộng",
+        "2 muỗng canh nước tương",
+        "1 muỗng canh giấm đen hoặc giấm gạo",
+        "1 muỗng cà phê đường",
+        "3 tép tỏi băm, 1 muỗng cà phê gừng băm",
+        "1/2 muỗng cà phê tiêu Tứ Xuyên xay",
+        "Cải thìa hoặc rau cải luộc",
+        "Hành lá, đậu phộng rang giã"
+      ],
+      "steps": [
+        "Làm sốt: trộn mè xay, nước tương, giấm, đường, dầu ớt và tiêu Tứ Xuyên, thêm 4 muỗng canh nước luộc mì.",
+        "Phi thơm tỏi và gừng, xào thịt xay với một chút nước tương 6 đến 8 phút đến khi khô và hơi giòn cạnh.",
+        "Luộc rau 1 phút rồi vớt ra để ráo.",
+        "Luộc mì theo hướng dẫn trên bao bì và vớt ráo.",
+        "Chia sốt vào 2 tô, cho mì lên trên.",
+        "Thêm thịt xào, rau, đậu phộng và hành lá; trộn đều trước khi ăn."
+      ]
+    }
+  ]
+}

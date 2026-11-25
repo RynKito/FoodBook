@@ -18,6 +18,9 @@ interface MealDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE) suspend fun insert(meal: MealEntity)
     @Query("SELECT * FROM meals WHERE category = :c") suspend fun byCategory(c: String): List<MealEntity>
     @Query("SELECT * FROM meals WHERE id = :id") suspend fun byId(id: String): MealEntity?
+    @Query("SELECT COUNT(*) FROM meals") suspend fun count(): Int
+    @Query("SELECT * FROM meals") suspend fun all(): List<MealEntity>
+    @Query("DELETE FROM meals WHERE id NOT IN (:ids)") suspend fun deleteNotIn(ids: List<String>)
     @Query("SELECT * FROM meals WHERE name LIKE '%' || :q || '%'") suspend fun search(q: String): List<MealEntity>
 }
 

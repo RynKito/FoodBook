@@ -15,7 +15,12 @@ data class MealEntity(
     val area: String = "",
     val instructions: String = "",
     val ingredients: String = "",   // mỗi nguyên liệu 1 dòng
-    val dietType: String = "thit"
+    val dietType: String = "thit",
+    val wiki: String = "",
+    val time: String = "",
+    val servings: String = "",
+    val level: String = "",
+    val tip: String = ""
 )
 
 @Entity(tableName = "favorites", primaryKeys = ["userId", "mealId"])

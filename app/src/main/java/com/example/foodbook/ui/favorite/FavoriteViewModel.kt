@@ -11,7 +11,7 @@ import com.example.foodbook.data.repo.MealRepository
 import com.example.foodbook.util.CurrentUser
 
 class FavoriteViewModel(app: Application) : AndroidViewModel(app) {
-    private val repo = MealRepository(AppDatabase.get(app))
+    private val repo = MealRepository(AppDatabase.get(app), app)
     // Room trả LiveData: thêm/xóa yêu thích là UI tự cập nhật
     val favorites: LiveData<List<MealItem>> = repo.observeFavorites(CurrentUser.uid()).switchMap { list ->
         liveData {

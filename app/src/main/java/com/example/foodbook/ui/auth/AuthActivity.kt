@@ -3,6 +3,7 @@ package com.example.foodbook.ui.auth
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.foodbook.MainActivity
@@ -26,6 +27,16 @@ class AuthActivity : AppCompatActivity() {
         }
         binding.btnRegister.setOnClickListener {
             viewModel.register(binding.etEmail.text.toString().trim(), binding.etPassword.text.toString())
+        }
+
+        binding.tvForgot.setOnClickListener {
+            viewModel.resetPassword(binding.etEmail.text.toString().trim())
+        }
+        viewModel.info.observe(this) { msg ->
+            if (msg != null) {
+                Toast.makeText(this, msg, Toast.LENGTH_LONG).show()
+                viewModel.infoShown()
+            }
         }
 
         viewModel.state.observe(this) { state ->

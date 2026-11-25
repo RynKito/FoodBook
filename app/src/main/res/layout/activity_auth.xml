@@ -39,5 +39,9 @@
         <Button
             android:id="@+id/btnRegister" android:layout_width="match_parent" android:layout_height="wrap_content"
             android:text="@string/btn_register" style="@style/Widget.Material3.Button.OutlinedButton" />
+        <TextView
+            android:id="@+id/tvForgot" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Quên mật khẩu?" android:gravity="center" android:padding="12dp"
+            android:textColor="?attr/colorPrimary" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
